@@ -1,0 +1,24 @@
+body, html {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+   
+}
+.calculator {
+    margin: auto;
+    width: 430px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    border: 1px solid red;
+    height: 400px;
+}
+
+.box {
+    border: 1px solid blue;
+    font-size: 150%;
+    
+}
