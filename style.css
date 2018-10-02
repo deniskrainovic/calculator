@@ -7,7 +7,7 @@ body, html {
 .wrapper {
    
 }
-.calculator {
+.buttons {
     margin: auto;
     width: 430px;
     display: grid;
@@ -15,10 +15,25 @@ body, html {
     grid-gap: 10px;
     border: 1px solid red;
     height: 400px;
+    grid-template-rows: auto;
 }
 
 .box {
     border: 1px solid blue;
     font-size: 150%;
     
+}
+
+.output {
+    width: 430px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 100px 330px;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
 }
